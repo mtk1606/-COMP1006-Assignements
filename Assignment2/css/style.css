@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* header */
+header {
+    background: #2b2b2b;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 4px solid #e74c3c;
+}
+
+header h1 {
+    color: #e74c3c;
+    font-size: 2rem;
+}
+
+/* main */
+main {
+    padding: 40px 0;
+}
+
+main h1 {
+    margin-bottom: 30px;
+}
+
+/* message box */
+.message {
+    background: #27ae60;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* form */
+form {
+    background: #2b2b2b;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.section h2 {
+    color: #e74c3c;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    color: #ddd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    background: #1a1a1a;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* tried grid but flexbox easier
+.section {
+    display: grid;
+}
+*/
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #c0392b;
+}
+
+/* footer */
+footer {
+    background: #2b2b2b;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 4px solid #e74c3c;
+}
+
+footer p {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
